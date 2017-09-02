@@ -22,9 +22,6 @@ public class AcademiaFactoy {
 
             return new Administrativo(nombre,id);
 
-        }else{
-        
-        
         }
 
         return null;
