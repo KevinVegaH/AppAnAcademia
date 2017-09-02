@@ -13,15 +13,18 @@ public class AcademiaFactoy {
             return new Estudiante(nombre,id);
 
         }
-        if( tipo == "profesor"){
+        else if( tipo == "profesor"){
 
             return new Profesor(nombre,id);
 
         }
-        if( tipo == "administrativo"){
+        else if( tipo == "administrativo"){
 
             return new Administrativo(nombre,id);
 
+        }else{
+        
+        
         }
 
         return null;
